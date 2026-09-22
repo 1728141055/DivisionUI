@@ -1,0 +1,16 @@
+# Added by unreal-mcp-cli configure — never commit local MCP secrets.
+.env
+
+# Unreal Engine generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+Build/
+Backup/
+
+# Local Codex / agent files
+.agents/
+.codex/
