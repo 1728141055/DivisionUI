@@ -1,7 +1,17 @@
-# Added by unreal-mcp-cli configure — never commit local MCP secrets.
-.env
+# This repository intentionally contains only the Division UI source and assets.
+/*
+!/.gitignore
+!/Source/
+!/Source/ChallengeGame/
+!/Source/ChallengeGame/DivisionUI/
+!/Source/ChallengeGame/DivisionUI/**
+!/Content/
+!/Content/DivisionUIDemo/
+!/Content/DivisionUIDemo/UI/
+!/Content/DivisionUIDemo/UI/**
 
-# Unreal Engine generated files
+# Local secrets and generated files
+.env
 Binaries/
 DerivedDataCache/
 Intermediate/
@@ -10,7 +20,5 @@ Saved/
 .vscode/
 Build/
 Backup/
-
-# Local Codex / agent files
 .agents/
 .codex/
