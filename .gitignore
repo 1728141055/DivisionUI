@@ -3,10 +3,12 @@
 !/.gitignore
 !/Source/
 !/Source/ChallengeGame/
+/Source/ChallengeGame/*
 !/Source/ChallengeGame/DivisionUI/
 !/Source/ChallengeGame/DivisionUI/**
 !/Content/
 !/Content/DivisionUIDemo/
+/Content/DivisionUIDemo/*
 !/Content/DivisionUIDemo/UI/
 !/Content/DivisionUIDemo/UI/**
 
